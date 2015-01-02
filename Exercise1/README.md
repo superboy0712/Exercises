@@ -6,7 +6,7 @@ A note about the computers at the real-time lab:
  - Interfacing with the elevator hardware is done using libComedi, which is linux-only. If - for some reason - you want to do the elevator project on Windows, you're on your own.
 This exercise does not require that you use the machines at the real-time lab. However, the C code uses POSIX, so you'll need a POSIX-compliant OS, like linux or OSX.
 
-Since we are still in the startup-phase, there are no real groups and assigned lab-times this week (7th to 10th Jan.), which means the workspaces are "first come, first served". Due-date is therefore 16th January.
+Since we are still in the startup-phase, there are no real groups and assigned lab-times this week (7th to 9th Jan.), which means the workspaces are "first come, first served". Due-date is therefore 16th January.
 
 [Go](http://golang.org) has an [interactive "Tour"](http://tour.golang.org/list) you can take. Its syntax is a bit different, so it may be worth skimming through, or at least using as a quick reference.
 
