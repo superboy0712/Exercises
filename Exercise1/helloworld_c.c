@@ -14,7 +14,7 @@ void* someThreadFunction(){
 
 
 int main(){
-    pthread_t someThreadFunction;
+    pthread_t someThread;
     pthread_create(&someThread, NULL, someThreadFunction, NULL);
     // Arguments to a thread would be passed here ---------^
     
