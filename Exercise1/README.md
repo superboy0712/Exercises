@@ -82,13 +82,3 @@ What happens, and why?
 You will fix the above problem in Exercise 2, so you should save your code for later. If you have started using version control, use this opportunity and start putting it to use.
 
 
-
-6: Four Errors
---------------
-
-Run `four_errors.d` with `rdmd four_errors.d` from the command line.
- - What are the four things printed by line 22? ("Error! i is #")
- - Why do we get four things when `i` is only ever set to two different values?
- 
-
-
