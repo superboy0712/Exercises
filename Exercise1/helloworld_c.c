@@ -7,7 +7,7 @@
 
 // Note the return type: void*
 void* someThreadFunction(){
-    printf("Hello from a thread!\n")
+    printf("Hello from a thread!\n");
     return NULL;
 }
 
@@ -19,7 +19,7 @@ int main(){
     // Arguments to a thread would be passed here ---------^
     
     pthread_join(someThread, NULL);
-    printf("Hello from main!"\n);
+    printf("Hello from main!\n");
     return 0;
     
 }
