@@ -44,7 +44,7 @@ Why do we use concurrent execution (multithreading/multiprocessing, or the like)
  - How can adding more concurrent tasks make programming simpler? (Think about translation from idea to code...)
  - And how can it make programming more difficult? (Maybe come back to this after you have worked on part 4 of this exercise)
  
-What are the differences between processes, threads, green threads, and fibers?
+What are the differences between processes, threads, green threads, and coroutines?
  - Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
  - How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
  - With this in mind: What is the workaround for the GIL (Hint: it's another module)? How do you then share resources (variables/data)?
